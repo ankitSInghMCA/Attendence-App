@@ -1,0 +1,31 @@
+name: thepetnest
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  http: ^1.2.2  # Updated to resolve conflict
+  shared_preferences: ^2.3.0
+  google_maps_flutter: ^2.5.0
+  url_launcher: ^6.0.9
+  intl: ^0.18.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # Ensure compatibility
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
